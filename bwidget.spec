@@ -49,7 +49,10 @@ find . -name \*.txt -print0 | xargs -0 dos2unix
 %install
 dir=%buildroot%tcl_noarchdir/%name%version
 mkdir -m755 -p $dir
+chmod a-x *.tcl
 cp -a *.tcl images lang $dir
+chmod a-x ChangeLog
+chmod a-x BWman/*.html
 chmod a+x demo/demo.tcl
 
 %files
