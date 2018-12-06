@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "bwidget-1.9.12"
-set fileurl "https://sourceforge.net/projects/tcllib/files/BWidget/1.9.12/bwidget-1.9.12.tar.gz"
+set base "bwidget-1.9.13"
+set fileurl "https://sourceforge.net/projects/tcllib/files/BWidget/1.9.13/bwidget-1.9.13.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
