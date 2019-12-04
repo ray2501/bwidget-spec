@@ -19,7 +19,7 @@
 Name:           bwidget
 BuildRequires:  dos2unix
 BuildRequires:  tcl
-Version:        1.9.13
+Version:        1.9.14
 Release:        0
 Summary:        A Set of Megawidgets for Tcl/Tk
 Url:            http://sourceforge.net/projects/tcllib/
